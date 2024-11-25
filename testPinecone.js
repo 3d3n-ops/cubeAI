@@ -2,7 +2,7 @@ import axios from "axios";
 
 // GitHub Personal Access Token (ensure it's valid)
 const GITHUB_TOKEN =
-  "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";
+  "YOUR_GITHUB_TOKEN";
 
 // Function to fetch pull request data
 async function fetchPullRequest(owner, repo, pullNumber) {
